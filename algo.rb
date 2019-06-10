@@ -25,5 +25,5 @@ def optimized_sums (arr, sum)
             solutions << [ num, sum - num ]
         end
     end
-    p solutions
+    return solutions
 end
